@@ -18,6 +18,39 @@
     <link rel="stylesheet" href="footer.css">
 </head>
 <body>
+        <header>
+        <nav id="SPheader" class="white_text">
+            <div class="header_container">
+                <a href="" class="header_site">MOMOLIO</a>
+                <div id="hum_icn" onclick="humActive(this.id,this.className)">
+                    <span></span><span></span><span></span>
+                </div>
+                <div id="modal_menu">
+                    <div class="scrim">
+                        <ul class="menu_containor">
+                            <li><a class="hum_menu" href="https://1oomomo.github.io/">HOME</a></li>
+                            <li><a class="hum_menu" href="https://1oomomo.github.io//illus">ILLUS</a></li>
+                            <li><a class="hum_menu" href="https://1oomomo.github.io/design/">DESIGN</a></li>
+                            <li><a class="hum_menu" href="https://1oomomo.github.io/contact/">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            </div>
+        </nav>
+        <nav id="PCheader" class="white_text">
+            <div class="header_container">
+                <a href="" class="header_site hidden_name">MOMORIO</a>
+                <div class="menu_wrap">
+                    <a class="menu" href="https://1oomomo.github.io/">HOME</a>
+                    <a class="menu" href="https://1oomomo.github.io/illus/">ILLUS</a>
+                    <a class="menu" href="https://1oomomo.github.io/design/">DESIGN</a>
+                    <a class="menu" href="contact">CONTACT</a>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
         <section id="thanks">
             <h1>ご意見、お問い合わせを受け付けました！</h1>
@@ -26,12 +59,13 @@
         </section>
         <section>
             <div id="back_home">
-                <a href="">ホームへ戻る</a>
+                <a href="https://1oomomo.github.io/">ホームへ戻る</a>
             </div>
         </section>
     </main>
 <footer>
-    @copylight
+    @2023 momo
 </footer>
+<script src="toggle_modal.js"></script>
 </body>
 </html>
